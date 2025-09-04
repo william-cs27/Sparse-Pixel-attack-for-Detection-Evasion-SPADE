@@ -16,7 +16,7 @@ To reproduce the experiments:
 1. Clone the repository:
    ```
    git clone https://git.cs.bham.ac.uk/projects-2024-25/wxc450
-   cd MSc Project
+   cd SPADE
    ```
 
 2. Install dependencies:
