@@ -1,11 +1,5 @@
 # Now You See, Now You Don't — RL-Based Sparse Pixel Attacks for Detection Evasion
 
-**Author:** William Cherian Sam (Student ID: 2869850)  
-**Programme:** MSc Artificial Intelligence and Machine Learning  
-**Supervisor:** Dr. Kashif Rajpoot  
-**Institution:** University of Birmingham, School of Computer Science  
-**Academic Year:** 2024–25
-
 ---
 
 ## Overview
