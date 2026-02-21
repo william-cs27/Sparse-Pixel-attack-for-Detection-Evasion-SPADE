@@ -57,7 +57,13 @@ The proposed attack was evaluated on the BDD100K validation set using YOLOv8n, t
 | PSNR (dB)           | 34.53   | 29.06    | 33.47  |
 | Avg Query Count     | 736     | 633      | 1,736  |
 
-The proposed method achieves the best balance: stronger detection degradation than RFPAR, significantly better perceptual quality than Gaussian noise, and far fewer queries than the RFPAR baseline.
+The proposed attack was evaluated on the BDD100K validation set using YOLOv8n, targeting four safety-critical object classes: car, bus, truck, and person.
+
+The proposed attack was evaluated on the BDD100K validation set using YOLOv8n and achieved an average Attack Success Rate (ASR) of 68%. Detection performance was substantially degraded, with mean Average Precision dropping by 0.814, recall decreasing by 62.6%, and IoU reduced by 0.629, confirming consistent disruption of both detection and localisation.
+
+The perturbations were extremely sparse, modifying only 0.11% of image pixels on average, while maintaining high perceptual quality (SSIM 0.9806, PSNR 34.53 dB), making the adversarial images nearly indistinguishable from the originals.
+
+Compared to baselines, the method offers the best balance of effectiveness, efficiency, and stealth. Gaussian noise achieved slightly higher ASR but caused visible degradation, while RFPAR reached only 48% ASR and required over 1,700 queries. The proposed attack achieved 68% ASR with just 736 queries, demonstrating strong practicality for real-world black-box settings.
 
 ---
 
